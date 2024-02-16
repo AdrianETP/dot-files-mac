@@ -112,8 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-# ~/.config/tmux/plugins
+# ~/.config/tmUx/plugins
 export PATH=$HOME/.config/tmux/plugins/t-smart-tmux-session-manager/bin:$PATH
 # export PATH=$HOME/.config/bin:$PATH
 
